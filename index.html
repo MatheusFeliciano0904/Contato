@@ -28,10 +28,18 @@
         }
         .profile {
             text-align: center;
-            display: flex;
-            align-items: center;
+            display: block;
             margin-bottom: 20px;
         }
+
+        .profile-title{
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #0056b3;
+            text-align: center; /* Garante que o texto do nome fique centralizado */
+            margin: 0;
+        }
+
         .profile img {
             width: 100px;
             height: 100px;
@@ -57,6 +65,9 @@
             margin-right: 10px;
             color: #0056b3;
             font-size: 1.5em;
+        }
+        .contact-info li strong {
+            margin-right: 5px;
         }
         .contact-info a {
             text-decoration: none;
@@ -98,15 +109,15 @@
     <div class="container">
         <h1>Informações de Contato</h1>
         <div class="profile">
-            <div>Matheus Victor Feliciano Jupi</div>
+            <div class="profile-title">Matheus Victor Feliciano Jupi</div>
         </div>
         <ul class="contact-info">
-            <li><i class="fas fa-envelope"></i> <strong>Email: </strong> <a href="mailto:matheusfeliciano0904@gmail.com"> matheusfeliciano0904@gmail.com</a></li>
-            <li><i class="fas fa-phone"></i> <strong>Telefone: </strong> <a href="tel:+11916679001"> +55 11 91667-9001</a></li>
-            <li><i class="fas fa-briefcase"></i> <strong>Objetivo: </strong> Área de Dados </li>
-            <li><i class="fas fa-map-marker-alt"></i> <strong>Localização: </strong> São Paulo, Brasil</li>
-            <li><i class="fas fa-linkedin"></i> <strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/matheus-victor-feliciano-jupi/"> linkedin.com/in/matheus-victor</a></li>
-            <li><i class="fas fa-github"></i> <strong>GitHub: </strong> <a href="https://github.com/MatheusFeliciano0904"> github.com/matheus-victor</a></li>
+            <li><i class="fas fa-envelope"></i> <strong>Email:</strong> <span> <a href="mailto:matheusfeliciano0904@gmail.com">matheusfeliciano0904@gmail.com</a> </span></li>
+            <li><i class="fas fa-phone"></i> <strong>Telefone:</strong> <span> <a href="tel:+11916679001">+55 11 91667-9001</a> </span></li>
+            <li><i class="fas fa-briefcase"></i> <strong>Objetivo:</strong> <span>Área de Dados</span></li>
+            <li><i class="fas fa-map-marker-alt"></i> <strong>Localização:</strong> <span>São Paulo, Brasil</span></li>
+            <li><i class="fas fa-linkedin"></i> <strong>LinkedIn:</strong> <span> <a href="https://www.linkedin.com/in/matheus-victor-feliciano-jupi/">linkedin.com/in/matheus-victor</a> </span></li>
+            <li><i class="fas fa-github"></i> <strong>GitHub:</strong> <span> <a href="https://github.com/MatheusFeliciano0904">github.com/matheus-victor</a> </span></li>
         </ul>
         <div class="skills">
             <h2>Habilidades</h2>
